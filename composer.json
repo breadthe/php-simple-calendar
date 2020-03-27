@@ -1,0 +1,49 @@
+{
+    "name": "breadthe/php-simple-calendar",
+    "description": "Generates a monthly array of dates for displaying in a calendar grid",
+    "keywords": [
+        "breadthe",
+        "php-simple-calendar",
+        "php",
+        "calendar",
+        "php calendar",
+        "simple calendar"
+    ],
+    "homepage": "https://github.com/breadthe/php-simple-calendar",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Omigosh Dev",
+            "email": "omigoshdev@protonmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^7.4",
+        "nesbot/carbon": "^2.32"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Breadthe\\SimpleCalendar\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Breadthe\\SimpleCalendar\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+    }
+}
