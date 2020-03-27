@@ -56,6 +56,12 @@ $currentMonth->startOfNextMonth; // get the start of the previous month - instan
 $currentMonth->startOfNextMonth->toDateString(); // '2020-04-01'
 ```
 
+### UI Example
+
+Here's an example of a simple calendar UI that can be built with this package.
+
+![Simple calendar UI](https://user-images.githubusercontent.com/17433578/77709612-ae1c6f80-6f99-11ea-84cb-a7eeba1d0244.png)
+
 ### Testing
 
 ``` bash
